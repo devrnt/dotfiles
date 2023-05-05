@@ -1,0 +1,8 @@
+[core]
+	ignorecase = false
+	editor = code --wait
+[user]
+	name = Jonas De Vrient
+	email = jonas.de.vrient@codifly.be
+[pull]
+	rebase = false
