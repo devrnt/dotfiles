@@ -29,5 +29,5 @@ cd dotfiles
 5. Install package settings
 
 ```sh
-stow git # add anything you want
+stow git homebrew # add anything you want
 ```

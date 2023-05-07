@@ -1,0 +1,95 @@
+tap "adoptopenjdk/openjdk"
+tap "azure/functions"
+tap "homebrew/bundle"
+tap "homebrew/cask-fonts"
+tap "sdkman/tap"
+# Microsoft Azure CLI 2.0
+brew "azure-cli"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# Easiest way to build and release mobile apps
+brew "fastlane"
+# Distributed revision control system
+brew "git"
+# Enable transparent encryption/decryption of files in a git repo
+brew "git-crypt"
+# Mac App Store command-line interface
+brew "mas"
+# Manage multiple Node.js versions
+brew "nvm"
+# 📦🚀 Fast, disk space efficient package manager
+brew "pnpm"
+# Software environment for statistical computing
+brew "r"
+# Organize software neatly under a single directory tree (e.g. /usr/local)
+brew "stow"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Vulnerability scanner for container images, file systems, and Git repos
+brew "trivy"
+# Watch files and take action when they change
+brew "watchman"
+# JavaScript package manager
+brew "yarn"
+# Azure Functions Core Tools 4.0
+brew "azure/functions/azure-functions-core-tools@4"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# Tools for building Android applications
+cask "android-studio"
+# Flow state app for productivity
+cask "centered"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Google Chromium, sans integration with Google
+cask "eloston-chromium"
+# Web browser
+cask "firefox"
+# Monospaced font that includes programming ligatures
+cask "font-cascadia-code"
+# Typeface made for developers
+cask "font-jetbrains-mono"
+# JetBrains tools manager
+cask "jetbrains-toolbox"
+# Open-source screen recorder built with web technology
+cask "kap"
+# Open-source keystroke visualizer
+cask "keycastr"
+# Clipboard manager
+cask "maccy"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Web browser
+cask "microsoft-edge"
+# Email client
+cask "microsoft-outlook"
+# Meet, chat, call, and collaborate in just one place
+cask "microsoft-teams"
+# Interactive tool for analyzing MongoDB data
+cask "mongodb-compass"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Collaboration platform for API development
+cask "postman"
+# Standalone app for debugging React Native apps
+cask "react-native-debugger"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Team communication and collaboration software
+cask "slack"
+# Music streaming service
+cask "spotify"
+# Native GUI tool for relational databases
+cask "tableplus"
+# Open-source code editor
+cask "visual-studio-code"
+mas "Gifski", id: 1351639930
+mas "Keynote", id: 409183694
+mas "Medis", id: 1579200037
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Xcode", id: 497799835
