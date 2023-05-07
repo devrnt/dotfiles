@@ -31,3 +31,7 @@ cd dotfiles
 ```sh
 stow git homebrew # add anything you want
 ```
+
+## Extra
+
+Run `./install.sh` to setup a new machine
