@@ -35,3 +35,11 @@ stow git homebrew # add anything you want
 ## Extra
 
 Run `./install.sh` to setup a new machine
+
+## References
+
+- https://github.com/dotphiles/dotphiles
+- https://github.com/xero/dotfiles
+- https://github.com/driesvints/dotfiles
+- https://github.com/sam-dt/dotfiles
+- https://dotfiles.github.io/
