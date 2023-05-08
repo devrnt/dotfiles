@@ -1,20 +1,13 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Settings
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
+# VSCode as default editor.
+export EDITOR="code"
+
+# Set name of the theme to load @ ~/.oh-my-zsh/themes/
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
-
-# Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME=random will cause zsh to load
-# a theme from this variable instead of looking in $ZSH/themes/
-# If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -131,4 +124,5 @@ export PATH="$HOME/.cargo/bin:$PATH"
 # Added by Toolbox App
 export PATH="$PATH:~/Library/Application Support/JetBrains/Toolbox/scripts"
 
-source ~/.docker/init-zsh.sh || true # Added by Docker Desktop
+# Added by Docker Desktop
+source ~/.docker/init-zsh.sh || true
