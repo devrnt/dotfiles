@@ -1,51 +1,45 @@
 tap "adoptopenjdk/openjdk"
-tap "azure/functions"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
+tap "homebrew/services"
 tap "sdkman/tap"
-# Microsoft Azure CLI 2.0
-brew "azure-cli"
-# Powerful, clean, object-oriented scripting language
-brew "ruby"
-# Dependency manager for Cocoa projects
-brew "cocoapods"
-# Easiest way to build and release mobile apps
-brew "fastlane"
+# CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
+brew "aws-sam-cli"
+# Official Amazon AWS command-line interface
+brew "awscli"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
+# Fast and simple Node.js version manager
+brew "fnm"
 # Distributed revision control system
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
 brew "git-crypt"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Mac App Store command-line interface
 brew "mas"
-# Manage multiple Node.js versions
-brew "nvm"
-# 📦🚀 Fast, disk space efficient package manager
+# Pinentry for GPG on Mac
+brew "pinentry-mac"
+# Fast, disk space efficient package manager
 brew "pnpm"
-# Software environment for statistical computing
-brew "r"
+# Powerful, clean, object-oriented scripting language
+brew "ruby"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Tool to build, change, and version infrastructure
-brew "terraform"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Vulnerability scanner for container images, file systems, and Git repos
 brew "trivy"
-# Watch files and take action when they change
-brew "watchman"
 # JavaScript package manager
 brew "yarn"
-# Azure Functions Core Tools 4.0
-brew "azure/functions/azure-functions-core-tools@4"
-# Password manager that keeps all passwords secure behind one password
-cask "1password"
-# Tools for building Android applications
-cask "android-studio"
-# Flow state app for productivity
-cask "centered"
-# App to build and share containerized applications and microservices
+# Opensource IDE for exploring and testing api's
+cask "bruno"
+# AI-powered productivity tool for the command-line
+cask "codewhisperer"
+# App to build and share containerised applications and microservices
 cask "docker"
 # Google Chromium, sans integration with Google
 cask "eloston-chromium"
@@ -57,11 +51,11 @@ cask "font-cascadia-code"
 cask "font-jetbrains-mono"
 # Web browser
 cask "google-chrome"
-# JetBrains tools manager
-cask "jetbrains-toolbox"
+# Utility to hide menu bar items
+cask "hiddenbar"
 # Open-source screen recorder built with web technology
 cask "kap"
-# Open-source keystroke visualizer
+# Open-source keystroke visualiser
 cask "keycastr"
 # Clipboard manager
 cask "maccy"
@@ -73,14 +67,22 @@ cask "microsoft-edge"
 cask "microsoft-outlook"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# Online collaborative whiteboard platform
+cask "miro"
 # Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# Client-side GUI application for modern database development and operations
+cask "nosql-workbench"
+# App to write, plan, collaborate, and get organised
+cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Replacement for Docker Desktop
+cask "orbstack"
 # Collaboration platform for API development
 cask "postman"
-# Standalone app for debugging React Native apps
-cask "react-native-debugger"
+# HTTP debugging proxy
+cask "proxyman"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Team communication and collaboration software
@@ -89,75 +91,99 @@ cask "slack"
 cask "spotify"
 # Native GUI tool for relational databases
 cask "tableplus"
+# SSH server for teams managing distributed infrastructure
+cask "tsh"
 # Open-source code editor
 cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "GarageBand", id: 682658836
 mas "Gifski", id: 1351639930
+mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Medis", id: 1579200037
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Xcode", id: 497799835
-vscode "4ops.terraform"
 vscode "adpyke.codesnap"
+vscode "amazonwebservices.codewhisperer-for-command-line-companion"
+vscode "anotherglitchinthematrix.monochrome"
 vscode "antfu.icons-carbon"
+vscode "antfu.theme-vitesse"
+vscode "ariondev.gesper"
+vscode "artilleryio.vscode-artillery"
 vscode "atomiks.moonlight"
-vscode "Azurite.azurite"
+vscode "biomejs.biome"
+vscode "bradlc.vscode-tailwindcss"
 vscode "brittanychiang.halcyon-vscode"
+vscode "bruno-api-client.bruno"
 vscode "christian-kohler.path-intellisense"
-vscode "cssho.vscode-svgviewer"
-vscode "Dart-Code.dart-code"
+vscode "codesandbox-io.codesandbox-projects-theme"
 vscode "davidbwaters.macos-modern-theme"
 vscode "dbaeumer.vscode-eslint"
 vscode "eamodio.gitlens"
-vscode "EditorConfig.EditorConfig"
+vscode "editorconfig.editorconfig"
 vscode "enkia.tokyo-night"
+vscode "equinusocio.vsc-material-theme"
+vscode "equinusocio.vsc-material-theme-icons"
 vscode "esbenp.prettier-vscode"
-vscode "firefox-devtools.vscode-firefox-debug"
-vscode "firsttris.vscode-jest-runner"
 vscode "fivethree.vscode-svelte-snippets"
-vscode "formulahendry.auto-rename-tag"
-vscode "formulahendry.azure-storage-explorer"
 vscode "foxundermoon.shell-format"
-vscode "GitHub.copilot"
-vscode "GitHub.github-vscode-theme"
-vscode "GitHub.vscode-pull-request-github"
-vscode "hashicorp.terraform"
+vscode "github.copilot"
+vscode "github.copilot-chat"
+vscode "github.github-vscode-theme"
+vscode "github.vscode-github-actions"
+vscode "github.vscode-pull-request-github"
+vscode "golang.go"
+vscode "grapecity.gc-excelviewer"
+vscode "janisdd.vscode-edit-csv"
 vscode "kamikillerto.vscode-colorize"
 vscode "kisstkondoros.vscode-gutter-preview"
 vscode "meganrogge.template-string-converter"
 vscode "melishev.feather-vscode"
 vscode "mhutchie.git-graph"
 vscode "miguelsolorio.fluent-icons"
+vscode "miguelsolorio.symbols"
 vscode "mikestead.dotenv"
-vscode "mongodb.mongodb-vscode"
+vscode "mkxml.vscode-filesize"
 vscode "mquandalle.graphql"
-vscode "ms-azure-devops.azure-pipelines"
-vscode "ms-azuretools.vscode-azureappservice"
-vscode "ms-azuretools.vscode-azurefunctions"
-vscode "ms-azuretools.vscode-azureresourcegroups"
-vscode "ms-azuretools.vscode-azurestorage"
-vscode "ms-azuretools.vscode-cosmosdb"
 vscode "ms-azuretools.vscode-docker"
 vscode "ms-playwright.playwright"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "ms-vscode-remote.remote-ssh-edit"
 vscode "ms-vscode.azure-account"
+vscode "ms-vscode.remote-explorer"
 vscode "ms-vsliveshare.vsliveshare"
+vscode "msrvida.vscode-sanddance"
 vscode "mtdmali.daybreak-theme"
 vscode "olefjaerestad.vscode-circular-dependencies-finder"
+vscode "oxc.oxc-vscode"
 vscode "phplasma.csv-to-table"
 vscode "pmndrs.pmndrs"
-vscode "Prisma.prisma"
-vscode "ritwickdey.LiveServer"
+vscode "pomber.git-file-history"
+vscode "prisma.prisma"
+vscode "raunofreiberg.vesper"
+vscode "redhat.vscode-yaml"
+vscode "ritwickdey.liveserver"
 vscode "rust-lang.rust-analyzer"
 vscode "sdras.night-owl"
-vscode "SimonSiefke.svg-preview"
+vscode "simonsiefke.svg-preview"
 vscode "sleistner.vscode-fileutils"
 vscode "styled-components.vscode-styled-components"
 vscode "svelte.svelte-vscode"
 vscode "teabyii.ayu"
+vscode "threadheap.serverless-ide-vscode"
 vscode "tinkertrain.theme-panda"
 vscode "usernamehw.errorlens"
-vscode "VisualStudioExptTeam.vscodeintellicode"
+vscode "visualstudioexptteam.vscodeintellicode"
+vscode "vitest.explorer"
+vscode "vue.volar"
 vscode "wayou.vscode-todo-highlight"
+vscode "webnetsolutions.vstorm-color-theme"
+vscode "withfig.fig"
 vscode "wix.vscode-import-cost"
 vscode "yoavbls.pretty-ts-errors"
-vscode "ZixuanChen.vitest-explorer"
+vscode "zoellner.openapi-preview"
