@@ -1,3 +1,5 @@
+# CodeWhisperer pre block. Keep at the top of this file.
+[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.pre.zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Settings
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -108,27 +110,8 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"                                       # This loads nvm
 [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 
-# Calling nvm use automatically in a directory with a .nvmrc file
-# place this after nvm initialization! See https://github.com/nvm-sh/nvm#zsh
-autoload -U add-zsh-hook
-load-nvmrc() {
-    local nvmrc_path="$(nvm_find_nvmrc)"
-
-    if [ -n "$nvmrc_path" ]; then
-        local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-        if [ "$nvmrc_node_version" = "N/A" ]; then
-            nvm install
-        elif [ "$nvmrc_node_version" != "$(nvm version)" ]; then
-            nvm use
-        fi
-    elif [ -n "$(PWD=$OLDPWD nvm_find_nvmrc)" ] && [ "$(nvm version)" != "$(nvm version default)" ]; then
-        echo "Reverting to nvm default version"
-        nvm use default
-    fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+# load fnm: https://github.com/Schniz/fnm#shell-setup
+eval "$(fnm env --use-on-cd)"
 
 # === React Native Android Environment Setup ===
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -140,8 +123,5 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Rustup: Rust installer and version management tool
 export PATH="$HOME/.cargo/bin:$PATH"
 
-# Added by Toolbox App
-export PATH="$PATH:~/Library/Application Support/JetBrains/Toolbox/scripts"
-
-# Added by Docker Desktop
-source ~/.docker/init-zsh.sh || true
+# CodeWhisperer post block. Keep at the bottom of this file.
+[[ -f "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/codewhisperer/shell/zshrc.post.zsh"
