@@ -29,7 +29,7 @@ cd dotfiles
 5. Install package settings
 
 ```sh
-stow git homebrew # add anything you want
+stow git homebrew zsh aerospace # add anything you want
 ```
 
 ## Extra
