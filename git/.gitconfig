@@ -2,7 +2,14 @@
 	ignorecase = false
 	editor = code --wait
 [user]
-	name = Jonas De Vrient
-	email = jonas.de.vrient@codifly.be
+	name = devrnt
+	email = devrient.jonas@gmail.com
+	signingkey = /Users/jonas/.ssh/id_ed25519_private.pub
 [pull]
 	rebase = false
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
