@@ -191,5 +191,11 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# Keeper SSH Agent
+# export SSH_AUTH_SOCK='/var/folders/bg/c1t8q5h92lzg295qm7yjb5v80000gn/T/keeper-ssh-agent.sock'
+# Bitwarden SSH Agent
+export SSH_AUTH_SOCK=/Users/jonasdevrient/.bitwarden-ssh-agent.sock
+
+
 # Q post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
