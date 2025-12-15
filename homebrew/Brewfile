@@ -1,13 +1,12 @@
 tap "hashicorp/tap"
-tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
-tap "homebrew/services"
 tap "nikitabobko/tap"
 tap "sdkman/tap"
 # Run your GitHub Actions locally
 brew "act"
 # JPEG image codec that aids compression and decompression
 brew "jpeg-turbo"
+# Record and share terminal sessions
+brew "asciinema"
 # Command-line interface for SQLite
 brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
@@ -18,8 +17,6 @@ brew "awscli"
 brew "bat"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
-# General-purpose scripting language
-brew "php"
 # Dependency Manager for PHP
 brew "composer"
 # Tool for exploring each layer in a docker image
@@ -40,7 +37,7 @@ brew "fzf"
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
 brew "git-crypt"
-# GNU Pretty Good Privacy (PGP) package
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Command-line benchmarking tool
 brew "hyperfine"
@@ -48,8 +45,16 @@ brew "hyperfine"
 brew "jq"
 # Mac App Store command-line interface
 brew "mas"
+# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
+brew "openvpn"
+# General-purpose scripting language
+brew "php@8.2"
+# General-purpose scripting language
+brew "php@8.3"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
+# Editor of encrypted files
+brew "sops"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
 # Terraform version manager inspired by rbenv
@@ -66,8 +71,6 @@ brew "yarn"
 brew "sdkman/tap/sdkman-cli"
 # AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
-# AI-powered productivity tool for the command-line
-cask "amazon-q"
 # Android SDK component
 cask "android-platform-tools"
 # Tools for building Android applications
@@ -80,28 +83,37 @@ cask "bitwarden"
 cask "bruno"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# AI-powered database and data management tool
+cask "conar"
 # Write, edit, and chat about your code with AI
 cask "cursor"
 # Database manager
 cask "dataflare"
 # App to build and share containerised applications and microservices
-cask "docker"
+cask "docker-desktop"
 # Collaborative team software
 cask "figma"
 # Web browser
 cask "firefox"
 cask "font-cascadia-code"
+cask "font-ibm-plex-mono"
 cask "font-jetbrains-mono"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Chromium-based web browser
+cask "helium-browser"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Open-source screen recorder built with web technology
 cask "kap"
+# Password manager application and digital vault
+cask "keeper-password-manager"
 # Open-source keystroke visualiser
 cask "keycastr"
+# Agent-centric IDE with spec-driven development
+cask "kiro"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Discover, download, and run local LLMs
@@ -110,14 +122,10 @@ cask "lm-studio"
 cask "localsend"
 # Reverse proxy that enables you to expose your localhost to the internet
 cask "localxpose"
-# Clipboard manager
-cask "maccy"
 # Provides updates to various Microsoft products
 cask "microsoft-auto-update"
 # Multi-platform web browser
 cask "microsoft-edge"
-# Remote desktop client
-cask "microsoft-remote-desktop"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Interactive tool for analyzing MongoDB data
@@ -144,6 +152,8 @@ cask "readdle-spark"
 cask "rectangle"
 # Open source virtual/remote desktop application
 cask "rustdesk"
+# Plugin for AWS CLI to start and end sessions that connect to managed instances
+cask "session-manager-plugin"
 # Team communication and collaboration software
 cask "slack"
 # Application to control your PlayStation 4 or PlayStation 5
@@ -156,16 +166,19 @@ cask "stats"
 cask "tableplus"
 # Customizable email client
 cask "thunderbird"
+# AI image upscaler
+cask "upscayl"
 # Virtual machines UI using QEMU
 cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
+# Connect to Windows
+cask "windows-app"
 # Multiplayer code editor
 cask "zed"
-mas "Gifski", id: 1351639930
+# Gecko based web browser
+cask "zen"
 mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
-mas "Medis", id: 1579200037
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Xcode", id: 497799835
