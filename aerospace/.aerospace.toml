@@ -179,6 +179,14 @@ automatically-unhide-macos-hidden-apps = false
     shift-down = ['volume set 0', 'mode main']
 
     [[on-window-detected]]
+    if.app-id = 'com.mitchellh.ghostty'
+    run = "move-node-to-workspace 1"
+    check-further-callbacks = true
+    [[on-window-detected]]
+    if.app-id = 'md.obsidian'
+    run = "move-node-to-workspace 1"
+
+    [[on-window-detected]]
     if.app-id = 'com.microsoft.edgemac'
     run = "move-node-to-workspace B"
 
