@@ -1,0 +1,7 @@
+[user]
+	name = devrnt
+	email = devrient.jonas@gmail.com
+	signingkey = /Users/jonasdevrient/.ssh/id_ed25519_personal.pub
+[gpg "ssh"]
+	allowedSignersFile = /Users/jonasdevrient/.ssh/allowed_signers_personal
+

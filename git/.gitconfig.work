@@ -1,0 +1,10 @@
+[user]
+	name = Jonas De Vrient
+	email = jonas.devrient@artion.eu
+	signingkey = /Users/jonasdevrient/.ssh/id_ed25519_work.pub
+[gpg "ssh"]
+	allowedSignersFile = /Users/jonasdevrient/.ssh/allowed_signers_work
+
+# SSH sees a github.com-work host and tries to find all matching configurations for that, including the exact one we have defined above.
+[url "git@github.com-work"]
+  insteadOf = git@github.com

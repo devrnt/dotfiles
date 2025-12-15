@@ -1,12 +1,8 @@
 [core]
 	ignorecase = false
 	editor = code --wait
-[user]
-	name = devrnt
-	email = devrient.jonas@gmail.com
-	signingkey = /Users/jonas/.ssh/id_ed25519_private.pub
 [pull]
-	rebase = false
+	rebase = true
 [gpg]
 	format = ssh
 [commit]
@@ -15,3 +11,16 @@
 	gpgSign = true
 [init]
 	defaultBranch = main
+
+[user]
+  useConfigOnly = true
+
+# optional (if you sometimes work outside of your regular directories)
+[include]
+  path = ~/.gitconfig.personal
+
+[includeIf "gitdir:~/dev/artion/"]
+  path = ~/.gitconfig.work
+
+[includeIf "gitdir:~/dev/personal/"]
+  path = ~/.gitconfig.personal

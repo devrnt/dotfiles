@@ -24,7 +24,7 @@ brew update
 brew install stow
 
 # Symblink packages
-stow zsh homebrew git
+stow zsh homebrew git aerospace ssh
 
 # Install homebrew packages
 brew bundle install
