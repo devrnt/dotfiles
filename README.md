@@ -81,3 +81,4 @@ The config will be symlinked to your home directory (e.g., `~/.vimrc`).
 - https://github.com/driesvints/dotfiles
 - https://github.com/sam-dt/dotfiles
 - https://dotfiles.github.io/
+- https://markentier.tech/posts/2021/02/github-with-multiple-profiles-gpg-ssh-keys/
