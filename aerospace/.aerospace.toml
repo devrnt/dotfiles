@@ -178,35 +178,35 @@ automatically-unhide-macos-hidden-apps = false
     up = 'volume up'
     shift-down = ['volume set 0', 'mode main']
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.mitchellh.ghostty'
     run = "move-node-to-workspace 1"
     check-further-callbacks = true
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'md.obsidian'
     run = "move-node-to-workspace 1"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.microsoft.edgemac'
     run = "move-node-to-workspace B"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.microsoft.VSCode'
     run = "move-node-to-workspace C"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     # Cursor
     if.app-id = 'com.todesktop.230313mzl4w4u92'
     run = "move-node-to-workspace C"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.apple.mail'
     run = "move-node-to-workspace M"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.microsoft.teams2'
     run = "move-node-to-workspace N"
 
-    [[on-window-detected]]
+[[on-window-detected]]
     if.app-id = 'com.tinyspeck.slackmacgap'
     run = "move-node-to-workspace N"
