@@ -29,7 +29,7 @@ cd dotfiles
 5. Install package settings
 
 ```sh
-stow git homebrew zsh aerospace ssh # add anything you want
+stow git homebrew zsh aerospace ssh agents # add anything you want
 ```
 
 ## Extra
@@ -57,7 +57,7 @@ vim dotfiles/vim/.vimrc
 
 ```sh
 # Change this line:
-stow zsh homebrew git aerospace ssh
+stow zsh homebrew git aerospace ssh agents
 
 # To include your new config:
 stow zsh homebrew git aerospace ssh vim
