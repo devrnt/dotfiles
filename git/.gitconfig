@@ -1,6 +1,6 @@
 [core]
 	ignorecase = false
-	editor = code --wait
+	editor = cursor --wait
 [pull]
 	rebase = true
 [gpg]
