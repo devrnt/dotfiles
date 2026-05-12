@@ -15,6 +15,9 @@
 [user]
   useConfigOnly = true
 
+[alias]
+  lol = log --oneline --graph --decorate --all
+
 # optional (if you sometimes work outside of your regular directories)
 [include]
   path = ~/.gitconfig.personal
