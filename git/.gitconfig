@@ -18,6 +18,9 @@
 [alias]
   lol = log --oneline --graph --decorate --all
 
+[push]
+	autoSetupRemote = true
+
 # optional (if you sometimes work outside of your regular directories)
 [include]
   path = ~/.gitconfig.personal
