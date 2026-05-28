@@ -1,0 +1,19 @@
+{
+  "name": "cursor-triage-skill",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Orchestrator for the triage skill — fans out Cursor SDK agents, one per Jira ticket, in isolated git worktrees.",
+  "main": "scripts/triage.mjs",
+  "bin": {
+    "triage": "scripts/triage.mjs"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "@cursor/sdk": "^0.5.0",
+    "execa": "^9.5.1",
+    "p-limit": "^6.1.0"
+  }
+}

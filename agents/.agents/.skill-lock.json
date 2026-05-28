@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "skills": {
+    "design-md": {
+      "source": "google-labs-code/stitch-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/google-labs-code/stitch-skills.git",
+      "skillPath": "plugins/stitch-utilities/skills/design-md/SKILL.md",
+      "skillFolderHash": "0a84781f35accede7cf373a4129d93bfb7651930",
+      "installedAt": "2026-05-08T09:46:35.985Z",
+      "updatedAt": "2026-05-28T09:37:38.407Z"
+    },
+    "typesense": {
+      "source": "membranedev/application-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/membranedev/application-skills.git",
+      "skillPath": "skills/typesense/SKILL.md",
+      "skillFolderHash": "ecb34ec234e13fed2801db72db0ddc22a2031922",
+      "installedAt": "2026-05-08T12:23:28.572Z",
+      "updatedAt": "2026-05-28T09:36:49.247Z"
+    },
+    "docker-expert": {
+      "source": "sickn33/antigravity-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/antigravity-awesome-skills.git",
+      "skillPath": "skills/docker-expert/SKILL.md",
+      "skillFolderHash": "4de306f28c3b66e8bb0419b574930bbce43ae47d",
+      "installedAt": "2026-05-08T12:58:53.099Z",
+      "updatedAt": "2026-05-28T09:38:21.245Z"
+    },
+    "improve-codebase-architecture": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/engineering/improve-codebase-architecture/SKILL.md",
+      "skillFolderHash": "688c17ec27fe9309d84987716aca37b5ce7f3a88",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-05-13T11:28:32.443Z",
+      "updatedAt": "2026-05-28T09:38:43.255Z"
+    },
+    "modern-web-guidance": {
+      "source": "GoogleChrome/modern-web-guidance",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/GoogleChrome/modern-web-guidance.git",
+      "skillPath": "skills/modern-web-guidance/SKILL.md",
+      "skillFolderHash": "9b9e922aa2a9875b133a3bf12f4fd4dbcad30d5a",
+      "installedAt": "2026-05-20T09:51:07.887Z",
+      "updatedAt": "2026-05-28T09:37:21.626Z"
+    },
+    "cavecrew": {
+      "source": "JuliusBrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/JuliusBrussee/caveman.git",
+      "skillPath": "skills/cavecrew/SKILL.md",
+      "skillFolderHash": "de99644a837172940aefcfab4e51f19344ba98df",
+      "installedAt": "2026-05-21T13:51:05.872Z",
+      "updatedAt": "2026-05-28T09:37:16.593Z"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "skillFolderHash": "2a1ad17028306ebe45f0e49703fa28b9b2e7f499",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-05-21T14:00:06.658Z",
+      "updatedAt": "2026-05-21T14:00:06.658Z"
+    },
+    "caveman": {
+      "source": "juliusbrussee/caveman",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
+      "skillPath": "skills/caveman/SKILL.md",
+      "skillFolderHash": "75b63aa9ec7bbb0e72bb6b3524ff6b576c14a05a",
+      "installedAt": "2026-05-21T14:00:20.232Z",
+      "updatedAt": "2026-05-21T14:00:20.232Z"
+    },
+    "teach": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/in-progress/teach/SKILL.md",
+      "skillFolderHash": "2649a18218c39d578c4a5df7becd0fc96d356fbc",
+      "installedAt": "2026-05-28T09:25:55.162Z",
+      "updatedAt": "2026-05-28T09:39:00.852Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp",
+    "zed"
+  ]
+}
