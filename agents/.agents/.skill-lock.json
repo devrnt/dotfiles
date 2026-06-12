@@ -1,15 +1,6 @@
 {
   "version": 3,
   "skills": {
-    "design-md": {
-      "source": "google-labs-code/stitch-skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/google-labs-code/stitch-skills.git",
-      "skillPath": "plugins/stitch-utilities/skills/design-md/SKILL.md",
-      "skillFolderHash": "0a84781f35accede7cf373a4129d93bfb7651930",
-      "installedAt": "2026-05-08T09:46:35.985Z",
-      "updatedAt": "2026-05-28T09:37:38.407Z"
-    },
     "typesense": {
       "source": "membranedev/application-skills",
       "sourceType": "github",
@@ -73,16 +64,17 @@
       "skillPath": "skills/caveman/SKILL.md",
       "skillFolderHash": "75b63aa9ec7bbb0e72bb6b3524ff6b576c14a05a",
       "installedAt": "2026-05-21T14:00:20.232Z",
-      "updatedAt": "2026-05-21T14:00:20.232Z"
+      "updatedAt": "2026-06-12T06:45:40.562Z"
     },
     "teach": {
       "source": "mattpocock/skills",
       "sourceType": "github",
       "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/in-progress/teach/SKILL.md",
-      "skillFolderHash": "2649a18218c39d578c4a5df7becd0fc96d356fbc",
+      "skillPath": "skills/productivity/teach/SKILL.md",
+      "skillFolderHash": "975430f7801bac2258ed18f4d80860024443b4f7",
+      "pluginName": "mattpocock-skills",
       "installedAt": "2026-05-28T09:25:55.162Z",
-      "updatedAt": "2026-05-28T09:39:00.852Z"
+      "updatedAt": "2026-06-10T18:14:54.164Z"
     }
   },
   "dismissed": {
@@ -91,15 +83,14 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
-    "dexto",
-    "firebender",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
     "warp",
     "zed"
