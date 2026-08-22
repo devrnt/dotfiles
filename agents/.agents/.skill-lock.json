@@ -52,9 +52,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/juliusbrussee/caveman.git",
       "skillPath": "skills/caveman/SKILL.md",
-      "skillFolderHash": "75b63aa9ec7bbb0e72bb6b3524ff6b576c14a05a",
+      "skillFolderHash": "3e4386ca694c65a65ba84024f0fe2646a8c9076a",
       "installedAt": "2026-05-21T14:00:20.232Z",
-      "updatedAt": "2026-06-12T06:45:40.562Z"
+      "updatedAt": "2026-08-03T12:08:01.156Z"
     },
     "teach": {
       "source": "mattpocock/skills",
