@@ -1,42 +1,48 @@
+tap "anomalyco/tap"
 tap "hashicorp/tap"
+tap "iheanyi/tap"
+tap "jordond/tap"
+tap "kamillobinski/thock"
 tap "nikitabobko/tap"
 tap "sdkman/tap"
 # Run your GitHub Actions locally
 brew "act"
-# JPEG image codec that aids compression and decompression
-brew "jpeg-turbo"
 # Record and share terminal sessions
 brew "asciinema"
-# Command-line interface for SQLite
-brew "sqlite"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.13"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Dependency manager for Cocoa projects
 brew "cocoapods"
+# JPEG image codec that aids compression and decompression
+brew "jpeg-turbo"
+# Postgres C API library
+brew "libpq"
 # Dependency Manager for PHP
 brew "composer"
 # Tool for exploring each layer in a docker image
 brew "dive"
 # View disk space usage and delete unwanted data, fast
 brew "dua-cli"
-# Easiest way to build and release mobile apps
-brew "fastlane"
-# Multi-format archive and compression library
-brew "libarchive"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Fast and simple Node.js version manager
 brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Multi-format archive and compression library
+brew "libarchive"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
 brew "git-crypt"
+# Render markdown on the CLI
+brew "glow"
 # GNU Privacy Guard (OpenPGP)
 brew "gnupg"
 # Command-line benchmarking tool
@@ -45,12 +51,24 @@ brew "hyperfine"
 brew "jq"
 # Mac App Store command-line interface
 brew "mas"
+# Port scanning utility for large networks
+brew "nmap"
+# Libraries for security-enabled client and server applications
+brew "nss"
+# AI coding agent, built for the terminal
+brew "opencode"
 # SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
 brew "openvpn"
+# CLI for Postgres with auto-completion and syntax highlighting
+brew "pgcli"
 # General-purpose scripting language
 brew "php@8.2"
 # General-purpose scripting language
 brew "php@8.3"
+# PNG image optimizing utility
+brew "pngquant"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Prints a steam locomotive if you type sl instead of ls
 brew "sl"
 # Editor of encrypted files
@@ -63,13 +81,18 @@ brew "tfenv"
 brew "tree"
 # Vulnerability scanner for container images, file systems, and Git repos
 brew "trivy"
+# Extremely fast Python package installer and resolver, written in Rust
+brew "uv"
 # Watch files and take action when they change
 brew "watchman"
+# CLI for Git worktree management, designed for parallel AI agent workflows
+brew "worktrunk"
 # JavaScript package manager
 brew "yarn"
-# SDKMAN! the Software Development Kit Manager
-brew "sdkman/tap/sdkman-cli"
-# AeroSpace is an i3-like tiling window manager for macOS
+# Blazing fast terminal file manager written in Rust, based on async I/O
+brew "yazi"
+# Development server manager for git worktrees
+brew "iheanyi/tap/grove", trusted: true
 cask "aerospace"
 # Android SDK component
 cask "android-platform-tools"
@@ -81,8 +104,14 @@ cask "beekeeper-studio"
 cask "bitwarden"
 # Open source IDE for exploring and testing APIs
 cask "bruno"
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# Terminal-based AI coding assistant
+cask "claude-code"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # AI-powered database and data management tool
 cask "conar"
 # Write, edit, and chat about your code with AI
@@ -91,8 +120,6 @@ cask "cursor"
 cask "dataflare"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
-# Collaborative team software
-cask "figma"
 # Web browser
 cask "firefox"
 cask "font-cascadia-code"
@@ -106,14 +133,16 @@ cask "google-chrome"
 cask "helium-browser"
 # Utility to hide menu bar items
 cask "hiddenbar"
+# AI agent orchestrator for parallel coding across projects
+cask "hive-app"
 # Open-source screen recorder built with web technology
 cask "kap"
-# Password manager application and digital vault
-cask "keeper-password-manager"
 # Open-source keystroke visualiser
 cask "keycastr"
 # Agent-centric IDE with spec-driven development
 cask "kiro"
+# Voice-to-text transcription and paste tool
+cask "kitlangton-hex"
 # Free cross-platform office suite, fresh version
 cask "libreoffice"
 # Discover, download, and run local LLMs
@@ -138,6 +167,8 @@ cask "ngrok"
 cask "obsidian"
 # Cloud storage client
 cask "onedrive"
+# AI coding agent desktop client
+cask "opencode-desktop"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Collaboration platform for API development
@@ -164,6 +195,9 @@ cask "spotify"
 cask "stats"
 # Native GUI tool for relational databases
 cask "tableplus"
+# Native database client for many database types
+cask "tablepro"
+cask "thock"
 # Customizable email client
 cask "thunderbird"
 # AI image upscaler
@@ -172,6 +206,8 @@ cask "upscayl"
 cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
+cask "vlc"
 # Connect to Windows
 cask "windows-app"
 # Multiplayer code editor
