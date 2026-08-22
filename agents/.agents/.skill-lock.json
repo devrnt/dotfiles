@@ -65,6 +65,43 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-05-28T09:25:55.162Z",
       "updatedAt": "2026-06-10T18:14:54.164Z"
+    },
+    "ponytail": {
+      "source": "dietrichgebert/ponytail",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dietrichgebert/ponytail.git",
+      "skillPath": "skills/ponytail/SKILL.md",
+      "skillFolderHash": "cb6e53477eaf04e6daeca22feacb85f9ce20d40c",
+      "installedAt": "2026-06-16T12:53:03.922Z",
+      "updatedAt": "2026-08-18T12:35:41.563Z"
+    },
+    "thermo-nuclear-code-quality-review": {
+      "source": "cursor/plugins",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/cursor/plugins.git",
+      "skillPath": "cursor-team-kit/skills/thermo-nuclear-code-quality-review/SKILL.md",
+      "skillFolderHash": "d9c8935dd560b3b6f5941247d04a1843f8c7cc35",
+      "installedAt": "2026-07-15T13:59:17.756Z",
+      "updatedAt": "2026-08-12T11:58:51.023Z"
+    },
+    "architecture-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/wshobson/agents.git",
+      "skillPath": "plugins/backend-development/skills/architecture-patterns/SKILL.md",
+      "skillFolderHash": "55717d572be0446247e43e1532542428d00093c8",
+      "installedAt": "2026-08-12T09:11:38.432Z",
+      "updatedAt": "2026-08-12T09:11:38.432Z"
+    },
+    "clean-code": {
+      "source": "sickn33/agentic-awesome-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/sickn33/agentic-awesome-skills.git",
+      "skillPath": "skills/clean-code/SKILL.md",
+      "skillFolderHash": "f7e9ebffd5608df6b3ab00e0b0375d693215a409",
+      "installedAt": "2026-08-12T09:13:47.758Z",
+      "updatedAt": "2026-08-12T09:13:47.758Z"
+    },
     "grilling": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -92,6 +129,7 @@
     "kimi-code-cli",
     "opencode",
     "warp",
-    "zed"
+    "zed",
+    "claude-code"
   ]
 }
