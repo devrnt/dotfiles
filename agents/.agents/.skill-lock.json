@@ -47,16 +47,6 @@
       "installedAt": "2026-05-21T13:51:05.872Z",
       "updatedAt": "2026-05-28T09:37:16.593Z"
     },
-    "grill-me": {
-      "source": "mattpocock/skills",
-      "sourceType": "github",
-      "sourceUrl": "https://github.com/mattpocock/skills.git",
-      "skillPath": "skills/productivity/grill-me/SKILL.md",
-      "skillFolderHash": "2a1ad17028306ebe45f0e49703fa28b9b2e7f499",
-      "pluginName": "mattpocock-skills",
-      "installedAt": "2026-05-21T14:00:06.658Z",
-      "updatedAt": "2026-05-21T14:00:06.658Z"
-    },
     "caveman": {
       "source": "juliusbrussee/caveman",
       "sourceType": "github",
@@ -75,6 +65,15 @@
       "pluginName": "mattpocock-skills",
       "installedAt": "2026-05-28T09:25:55.162Z",
       "updatedAt": "2026-06-10T18:14:54.164Z"
+    "grilling": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/mattpocock/skills.git",
+      "skillPath": "skills/productivity/grilling/SKILL.md",
+      "skillFolderHash": "0d40d978f1a588971a11ea7ae85b208e78102dc3",
+      "pluginName": "mattpocock-skills",
+      "installedAt": "2026-08-17T09:26:05.675Z",
+      "updatedAt": "2026-08-17T09:26:05.675Z"
     }
   },
   "dismissed": {
